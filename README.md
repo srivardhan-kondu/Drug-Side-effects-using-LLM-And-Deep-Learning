@@ -178,37 +178,54 @@ The following diagram illustrates how the `DrugSideEffectModel` processes a drug
 
 ```mermaid
 graph TD
-    subgraph Input_Layer
-        A[Input Features<br/>(29 Dimensions)] --> B[Feature Importance Gate<br/>(Learnable Mask)]
+    %% Styling
+    classDef data fill:#e3f2fd,stroke:#1565c0,stroke-width:2px;
+    classDef model fill:#f3e5f5,stroke:#7b1fa2,stroke-width:2px;
+    classDef train fill:#e8f5e9,stroke:#2e7d32,stroke-width:2px;
+
+    subgraph Data_Pipeline [Data Preparation & Augmentation]
+        direction TB
+        Raw(["Raw Drug Data<br/>(JSON)"]) --> Extract[Feature Extraction<br/>(Mol Weight, LogP, Encoded Cats)]
+        Extract -->|Vector 29-dim| Aug{Augmentation Loop<br/>x50 per Drug}
+        Aug -->|Add Gaussian Noise| TrainSet[(Training Batch<br/>~5,700 Samples)]
     end
-    
-    subgraph Encoder_Block
-        B --> C1[Dense Block 1<br/>Linear 512 + GELU]
-        C1 --> C2[Dense Block 2<br/>Linear 256 + GELU]
-        C2 --> C3[Dense Block 3<br/>Linear 128 + GELU]
+
+    subgraph DL_Model [Deep Learning Architecture]
+        direction TB
+        Input((Input Layer<br/>29 Features)) --> Gate[Feature Importance Gate<br/>(Learnable Sigmoid Mask)]
+        Gate --> Dense1[Dense Block 1<br/>Linear 512 + BatchNorm + GELU]
+        Dense1 --> Dense2[Dense Block 2<br/>Linear 256 + BatchNorm + GELU]
+        Dense2 --> Dense3[Dense Block 3<br/>Linear 128 + BatchNorm + GELU]
+        
+        %% Attention Branch
+        Dense3 --> Attn[Self-Attention Mechanism<br/>(Q, K, V Matrix Ops)]
+        Attn --> Context[Context Vector]
+        Dense3 --> Sum((+))
+        Context --> Sum
+        Sum --> Residual[Residual Connection<br/>(Features + Context)]
     end
-    
-    subgraph Attention_Mechanism
-        C3 --> D[Self-Attention Block<br/>(Finds Feature Correlations)]
-        D --> E[Residual Connection<br/>(Original + Attended)]
+
+    subgraph Outputs [Multi-Task Output Heads]
+        direction TB
+        Residual --> Head1[Severity Head<br/>Linear -> Sigmoid]
+        Residual --> Head2[Probability Head<br/>Linear -> Sigmoid]
+        
+        Head1 --> SevScore[Result: Severity Score<br/>(0.0 - 1.0)]
+        Head2 --> ProbScore[Result: Side Effect Probabilities]
     end
+
+    %% Flow across broad sections
+    TrainSet --> Input
     
-    subgraph Output_Heads
-        E --> F1[Head A: Probability<br/>(Sigmoid)]
-        E --> F2[Head B: Severity<br/>(Sigmoid Regression)]
-    end
-    
-    F1 --> G1[Result: Side Effect List]
-    F2 --> G2[Result: Severity Scores (0-1)]
-    
-    style A fill:#e1f5fe,stroke:#01579b
-    style B fill:#fff9c4,stroke:#fbc02d
-    style C1 fill:#e0f2f1,stroke:#00695c
-    style C2 fill:#e0f2f1,stroke:#00695c
-    style C3 fill:#e0f2f1,stroke:#00695c
-    style D fill:#f3e5f5,stroke:#7b1fa2
-    style F1 fill:#ffebee,stroke:#c62828
-    style F2 fill:#ffebee,stroke:#c62828
+    %% Training objective
+    SevScore -.-> Loss{MSE Loss Calculation}
+    ProbScore -.-> Loss
+    Loss -.-> Optim[Optimizer: Adam<br/>Backpropagation]
+
+    %% Apply Classes
+    class Raw,Extract,Aug,TrainSet data;
+    class Input,Gate,Dense1,Dense2,Dense3,Attn,Context,Sum,Residual,Head1,Head2 model;
+    class SevScore,ProbScore,Loss,Optim train;
 ```
 
 ---
