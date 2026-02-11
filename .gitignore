@@ -1,0 +1,14 @@
+venv/
+.env
+__pycache__/
+*.pth
+*.pkl
+.DS_Store
+.streamlit/
+scripts/
+static/
+app.py
+data/processed_data.pkl
+data/vectors.pkl
+data/drug_database.py
+data/drug_database_builder.py
