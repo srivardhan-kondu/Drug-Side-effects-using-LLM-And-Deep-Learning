@@ -1,0 +1,1837 @@
+{
+  "drugs": {
+    "Amoxicillin": {
+      "category": "Antibiotic",
+      "molecular_weight": 427.89,
+      "log_p": 0.08,
+      "h_bond_donors": 0,
+      "h_bond_acceptors": 2,
+      "polar_surface_area": 48.42,
+      "rotatable_bonds": 8,
+      "side_effects": {
+        "Nausea": 0.5,
+        "Stomach Pain": 0.57,
+        "Diarrhea": 0.33,
+        "Rash": 0.43
+      }
+    },
+    "Penicillin": {
+      "category": "Antibiotic",
+      "molecular_weight": 420.4,
+      "log_p": 1.68,
+      "h_bond_donors": 1,
+      "h_bond_acceptors": 3,
+      "polar_surface_area": 144.44,
+      "rotatable_bonds": 5,
+      "side_effects": {
+        "Stomach Pain": 0.54,
+        "Vomiting": 0.3,
+        "Diarrhea": 0.54,
+        "Nausea": 0.51,
+        "Rash": 0.4
+      }
+    },
+    "Azithromycin": {
+      "category": "Antibiotic",
+      "molecular_weight": 320.44,
+      "log_p": 1.14,
+      "h_bond_donors": 5,
+      "h_bond_acceptors": 6,
+      "polar_surface_area": 135.11,
+      "rotatable_bonds": 5,
+      "side_effects": {
+        "Rash": 0.46,
+        "Stomach Pain": 0.59,
+        "Diarrhea": 0.41,
+        "Nausea": 0.47
+      }
+    },
+    "Ciprofloxacin": {
+      "category": "Antibiotic",
+      "molecular_weight": 415.47,
+      "log_p": 2.11,
+      "h_bond_donors": 3,
+      "h_bond_acceptors": 7,
+      "polar_surface_area": 128.43,
+      "rotatable_bonds": 2,
+      "side_effects": {
+        "Nausea": 0.56,
+        "Rash": 0.56,
+        "Diarrhea": 0.41
+      }
+    },
+    "Cephalexin": {
+      "category": "Antibiotic",
+      "molecular_weight": 374.04,
+      "log_p": 0.63,
+      "h_bond_donors": 4,
+      "h_bond_acceptors": 3,
+      "polar_surface_area": 109.0,
+      "rotatable_bonds": 0,
+      "side_effects": {
+        "Diarrhea": 0.35,
+        "Nausea": 0.41,
+        "Rash": 0.6,
+        "Stomach Pain": 0.49
+      }
+    },
+    "Doxycycline": {
+      "category": "Antibiotic",
+      "molecular_weight": 345.81,
+      "log_p": 0.1,
+      "h_bond_donors": 3,
+      "h_bond_acceptors": 5,
+      "polar_surface_area": 135.01,
+      "rotatable_bonds": 10,
+      "side_effects": {
+        "Vomiting": 0.57,
+        "Rash": 0.47,
+        "Diarrhea": 0.52,
+        "Stomach Pain": 0.36
+      }
+    },
+    "Clindamycin": {
+      "category": "Antibiotic",
+      "molecular_weight": 391.77,
+      "log_p": 0.79,
+      "h_bond_donors": 1,
+      "h_bond_acceptors": 3,
+      "polar_surface_area": 86.24,
+      "rotatable_bonds": 1,
+      "side_effects": {
+        "Stomach Pain": 0.48,
+        "Rash": 0.57,
+        "Vomiting": 0.42
+      }
+    },
+    "Levofloxacin": {
+      "category": "Antibiotic",
+      "molecular_weight": 451.16,
+      "log_p": 2.58,
+      "h_bond_donors": 4,
+      "h_bond_acceptors": 4,
+      "polar_surface_area": 146.24,
+      "rotatable_bonds": 0,
+      "side_effects": {
+        "Nausea": 0.32,
+        "Vomiting": 0.41,
+        "Rash": 0.6
+      }
+    },
+    "Metronidazole": {
+      "category": "Antibiotic",
+      "molecular_weight": 436.06,
+      "log_p": 0.34,
+      "h_bond_donors": 1,
+      "h_bond_acceptors": 6,
+      "polar_surface_area": 138.64,
+      "rotatable_bonds": 10,
+      "side_effects": {
+        "Rash": 0.35,
+        "Stomach Pain": 0.3,
+        "Diarrhea": 0.52,
+        "Nausea": 0.52,
+        "Vomiting": 0.59
+      }
+    },
+    "Sulfamethoxazole": {
+      "category": "Antibiotic",
+      "molecular_weight": 359.69,
+      "log_p": 1.92,
+      "h_bond_donors": 2,
+      "h_bond_acceptors": 3,
+      "polar_surface_area": 27.53,
+      "rotatable_bonds": 9,
+      "side_effects": {
+        "Nausea": 0.48,
+        "Stomach Pain": 0.45,
+        "Vomiting": 0.33,
+        "Diarrhea": 0.41,
+        "Rash": 0.6
+      }
+    },
+    "Erythromycin": {
+      "category": "Antibiotic",
+      "molecular_weight": 489.39,
+      "log_p": 0.26,
+      "h_bond_donors": 1,
+      "h_bond_acceptors": 6,
+      "polar_surface_area": 118.18,
+      "rotatable_bonds": 3,
+      "side_effects": {
+        "Diarrhea": 0.58,
+        "Nausea": 0.35,
+        "Stomach Pain": 0.46,
+        "Vomiting": 0.48
+      }
+    },
+    "Clarithromycin": {
+      "category": "Antibiotic",
+      "molecular_weight": 442.59,
+      "log_p": 1.2,
+      "h_bond_donors": 0,
+      "h_bond_acceptors": 2,
+      "polar_surface_area": 112.02,
+      "rotatable_bonds": 0,
+      "side_effects": {
+        "Rash": 0.37,
+        "Vomiting": 0.32,
+        "Stomach Pain": 0.31,
+        "Nausea": 0.47,
+        "Diarrhea": 0.48
+      }
+    },
+    "Minocycline": {
+      "category": "Antibiotic",
+      "molecular_weight": 345.79,
+      "log_p": 2.72,
+      "h_bond_donors": 3,
+      "h_bond_acceptors": 3,
+      "polar_surface_area": 122.0,
+      "rotatable_bonds": 6,
+      "side_effects": {
+        "Diarrhea": 0.36,
+        "Nausea": 0.34,
+        "Vomiting": 0.58,
+        "Rash": 0.47
+      }
+    },
+    "Nitrofurantoin": {
+      "category": "Antibiotic",
+      "molecular_weight": 338.08,
+      "log_p": 0.29,
+      "h_bond_donors": 0,
+      "h_bond_acceptors": 5,
+      "polar_surface_area": 114.67,
+      "rotatable_bonds": 1,
+      "side_effects": {
+        "Rash": 0.56,
+        "Vomiting": 0.32,
+        "Nausea": 0.5,
+        "Stomach Pain": 0.49
+      }
+    },
+    "Vancomycin": {
+      "category": "Antibiotic",
+      "molecular_weight": 349.73,
+      "log_p": 0.57,
+      "h_bond_donors": 4,
+      "h_bond_acceptors": 2,
+      "polar_surface_area": 26.58,
+      "rotatable_bonds": 8,
+      "side_effects": {
+        "Nausea": 0.44,
+        "Vomiting": 0.56,
+        "Diarrhea": 0.32,
+        "Stomach Pain": 0.54
+      }
+    },
+    "Aspirin": {
+      "category": "NSAID",
+      "molecular_weight": 275.4,
+      "log_p": 4.42,
+      "h_bond_donors": 1,
+      "h_bond_acceptors": 5,
+      "polar_surface_area": 20.28,
+      "rotatable_bonds": 6,
+      "side_effects": {
+        "Heartburn": 0.34,
+        "Dizziness": 0.46,
+        "Bleeding": 0.47
+      }
+    },
+    "Ibuprofen": {
+      "category": "NSAID",
+      "molecular_weight": 189.78,
+      "log_p": 3.96,
+      "h_bond_donors": 4,
+      "h_bond_acceptors": 2,
+      "polar_surface_area": 117.24,
+      "rotatable_bonds": 0,
+      "side_effects": {
+        "Nausea": 0.25,
+        "Dizziness": 0.29,
+        "Bleeding": 0.49,
+        "Heartburn": 0.37
+      }
+    },
+    "Naproxen": {
+      "category": "NSAID",
+      "molecular_weight": 157.52,
+      "log_p": 3.19,
+      "h_bond_donors": 4,
+      "h_bond_acceptors": 3,
+      "polar_surface_area": 95.26,
+      "rotatable_bonds": 0,
+      "side_effects": {
+        "Heartburn": 0.22,
+        "Stomach Pain": 0.22,
+        "Nausea": 0.46,
+        "Dizziness": 0.32,
+        "Bleeding": 0.48
+      }
+    },
+    "Diclofenac": {
+      "category": "NSAID",
+      "molecular_weight": 242.91,
+      "log_p": 3.05,
+      "h_bond_donors": 0,
+      "h_bond_acceptors": 2,
+      "polar_surface_area": 79.58,
+      "rotatable_bonds": 9,
+      "side_effects": {
+        "Bleeding": 0.27,
+        "Nausea": 0.32,
+        "Heartburn": 0.4,
+        "Stomach Pain": 0.29,
+        "Dizziness": 0.29
+      }
+    },
+    "Celecoxib": {
+      "category": "NSAID",
+      "molecular_weight": 299.41,
+      "log_p": 2.18,
+      "h_bond_donors": 2,
+      "h_bond_acceptors": 4,
+      "polar_surface_area": 40.51,
+      "rotatable_bonds": 8,
+      "side_effects": {
+        "Bleeding": 0.48,
+        "Nausea": 0.46,
+        "Stomach Pain": 0.46
+      }
+    },
+    "Meloxicam": {
+      "category": "NSAID",
+      "molecular_weight": 255.53,
+      "log_p": 3.53,
+      "h_bond_donors": 2,
+      "h_bond_acceptors": 4,
+      "polar_surface_area": 98.63,
+      "rotatable_bonds": 5,
+      "side_effects": {
+        "Bleeding": 0.48,
+        "Stomach Pain": 0.24,
+        "Nausea": 0.23,
+        "Heartburn": 0.23,
+        "Dizziness": 0.37
+      }
+    },
+    "Indomethacin": {
+      "category": "NSAID",
+      "molecular_weight": 180.54,
+      "log_p": 3.59,
+      "h_bond_donors": 1,
+      "h_bond_acceptors": 7,
+      "polar_surface_area": 147.37,
+      "rotatable_bonds": 2,
+      "side_effects": {
+        "Bleeding": 0.23,
+        "Dizziness": 0.33,
+        "Heartburn": 0.28,
+        "Stomach Pain": 0.2
+      }
+    },
+    "Ketorolac": {
+      "category": "NSAID",
+      "molecular_weight": 261.18,
+      "log_p": 3.38,
+      "h_bond_donors": 2,
+      "h_bond_acceptors": 6,
+      "polar_surface_area": 91.83,
+      "rotatable_bonds": 6,
+      "side_effects": {
+        "Bleeding": 0.48,
+        "Stomach Pain": 0.41,
+        "Dizziness": 0.24,
+        "Nausea": 0.21
+      }
+    },
+    "Etodolac": {
+      "category": "NSAID",
+      "molecular_weight": 169.12,
+      "log_p": 2.77,
+      "h_bond_donors": 3,
+      "h_bond_acceptors": 6,
+      "polar_surface_area": 117.43,
+      "rotatable_bonds": 3,
+      "side_effects": {
+        "Nausea": 0.27,
+        "Heartburn": 0.23,
+        "Bleeding": 0.43
+      }
+    },
+    "Nabumetone": {
+      "category": "NSAID",
+      "molecular_weight": 279.69,
+      "log_p": 4.44,
+      "h_bond_donors": 5,
+      "h_bond_acceptors": 8,
+      "polar_surface_area": 115.56,
+      "rotatable_bonds": 3,
+      "side_effects": {
+        "Dizziness": 0.42,
+        "Stomach Pain": 0.3,
+        "Bleeding": 0.48
+      }
+    },
+    "Acetaminophen": {
+      "category": "NSAID",
+      "molecular_weight": 190.02,
+      "log_p": 3.97,
+      "h_bond_donors": 2,
+      "h_bond_acceptors": 8,
+      "polar_surface_area": 123.39,
+      "rotatable_bonds": 3,
+      "side_effects": {
+        "Dizziness": 0.27,
+        "Stomach Pain": 0.44,
+        "Heartburn": 0.34
+      }
+    },
+    "Tramadol": {
+      "category": "Opioid",
+      "molecular_weight": 306.75,
+      "log_p": 2.65,
+      "h_bond_donors": 2,
+      "h_bond_acceptors": 2,
+      "polar_surface_area": 34.99,
+      "rotatable_bonds": 4,
+      "side_effects": {
+        "Nausea": 0.71,
+        "Slow Breathing": 0.75,
+        "Constipation": 0.8,
+        "Drowsiness": 0.85
+      }
+    },
+    "Codeine": {
+      "category": "Opioid",
+      "molecular_weight": 301.43,
+      "log_p": 3.41,
+      "h_bond_donors": 0,
+      "h_bond_acceptors": 5,
+      "polar_surface_area": 136.94,
+      "rotatable_bonds": 3,
+      "side_effects": {
+        "Constipation": 0.7,
+        "Slow Breathing": 0.84,
+        "Nausea": 0.73,
+        "Drowsiness": 0.9
+      }
+    },
+    "Hydrocodone": {
+      "category": "Opioid",
+      "molecular_weight": 310.57,
+      "log_p": 2.77,
+      "h_bond_donors": 4,
+      "h_bond_acceptors": 4,
+      "polar_surface_area": 106.24,
+      "rotatable_bonds": 1,
+      "side_effects": {
+        "Slow Breathing": 0.73,
+        "Drowsiness": 0.88,
+        "Dependence": 0.88
+      }
+    },
+    "Oxycodone": {
+      "category": "Opioid",
+      "molecular_weight": 366.37,
+      "log_p": 1.75,
+      "h_bond_donors": 5,
+      "h_bond_acceptors": 3,
+      "polar_surface_area": 100.02,
+      "rotatable_bonds": 4,
+      "side_effects": {
+        "Dependence": 0.77,
+        "Nausea": 0.66,
+        "Drowsiness": 0.8,
+        "Slow Breathing": 0.71
+      }
+    },
+    "Morphine": {
+      "category": "Opioid",
+      "molecular_weight": 328.73,
+      "log_p": 3.08,
+      "h_bond_donors": 5,
+      "h_bond_acceptors": 3,
+      "polar_surface_area": 105.65,
+      "rotatable_bonds": 4,
+      "side_effects": {
+        "Nausea": 0.74,
+        "Drowsiness": 0.73,
+        "Dependence": 0.66,
+        "Slow Breathing": 0.74
+      }
+    },
+    "Fentanyl": {
+      "category": "Opioid",
+      "molecular_weight": 341.85,
+      "log_p": 2.58,
+      "h_bond_donors": 3,
+      "h_bond_acceptors": 6,
+      "polar_surface_area": 130.47,
+      "rotatable_bonds": 1,
+      "side_effects": {
+        "Constipation": 0.67,
+        "Drowsiness": 0.66,
+        "Nausea": 0.61,
+        "Dependence": 0.67
+      }
+    },
+    "Methadone": {
+      "category": "Opioid",
+      "molecular_weight": 334.65,
+      "log_p": 3.22,
+      "h_bond_donors": 3,
+      "h_bond_acceptors": 3,
+      "polar_surface_area": 42.87,
+      "rotatable_bonds": 8,
+      "side_effects": {
+        "Drowsiness": 0.64,
+        "Dependence": 0.81,
+        "Slow Breathing": 0.87,
+        "Nausea": 0.86,
+        "Constipation": 0.87
+      }
+    },
+    "Hydromorphone": {
+      "category": "Opioid",
+      "molecular_weight": 335.75,
+      "log_p": 2.39,
+      "h_bond_donors": 3,
+      "h_bond_acceptors": 6,
+      "polar_surface_area": 125.95,
+      "rotatable_bonds": 8,
+      "side_effects": {
+        "Dependence": 0.8,
+        "Drowsiness": 0.9,
+        "Slow Breathing": 0.78
+      }
+    },
+    "Atorvastatin": {
+      "category": "Statin",
+      "molecular_weight": 485.35,
+      "log_p": 5.72,
+      "h_bond_donors": 3,
+      "h_bond_acceptors": 7,
+      "polar_surface_area": 51.1,
+      "rotatable_bonds": 7,
+      "side_effects": {
+        "Liver Damage": 0.6,
+        "Nausea": 0.64,
+        "Headache": 0.41,
+        "Diabetes Risk": 0.61
+      }
+    },
+    "Simvastatin": {
+      "category": "Statin",
+      "molecular_weight": 415.5,
+      "log_p": 3.86,
+      "h_bond_donors": 0,
+      "h_bond_acceptors": 5,
+      "polar_surface_area": 72.99,
+      "rotatable_bonds": 8,
+      "side_effects": {
+        "Diabetes Risk": 0.36,
+        "Headache": 0.39,
+        "Nausea": 0.58,
+        "Muscle Pain": 0.58
+      }
+    },
+    "Rosuvastatin": {
+      "category": "Statin",
+      "molecular_weight": 493.18,
+      "log_p": 3.19,
+      "h_bond_donors": 3,
+      "h_bond_acceptors": 6,
+      "polar_surface_area": 117.18,
+      "rotatable_bonds": 8,
+      "side_effects": {
+        "Nausea": 0.49,
+        "Muscle Pain": 0.68,
+        "Diabetes Risk": 0.42,
+        "Liver Damage": 0.46
+      }
+    },
+    "Pravastatin": {
+      "category": "Statin",
+      "molecular_weight": 559.97,
+      "log_p": 5.69,
+      "h_bond_donors": 1,
+      "h_bond_acceptors": 8,
+      "polar_surface_area": 80.76,
+      "rotatable_bonds": 2,
+      "side_effects": {
+        "Liver Damage": 0.31,
+        "Diabetes Risk": 0.43,
+        "Headache": 0.57,
+        "Nausea": 0.46
+      }
+    },
+    "Lovastatin": {
+      "category": "Statin",
+      "molecular_weight": 596.14,
+      "log_p": 4.6,
+      "h_bond_donors": 1,
+      "h_bond_acceptors": 5,
+      "polar_surface_area": 62.49,
+      "rotatable_bonds": 6,
+      "side_effects": {
+        "Headache": 0.35,
+        "Muscle Pain": 0.48,
+        "Nausea": 0.32,
+        "Liver Damage": 0.45
+      }
+    },
+    "Fluvastatin": {
+      "category": "Statin",
+      "molecular_weight": 455.65,
+      "log_p": 5.85,
+      "h_bond_donors": 0,
+      "h_bond_acceptors": 8,
+      "polar_surface_area": 144.45,
+      "rotatable_bonds": 0,
+      "side_effects": {
+        "Diabetes Risk": 0.6,
+        "Muscle Pain": 0.32,
+        "Liver Damage": 0.68,
+        "Nausea": 0.39
+      }
+    },
+    "Lisinopril": {
+      "category": "ACE Inhibitor",
+      "molecular_weight": 463.13,
+      "log_p": 1.85,
+      "h_bond_donors": 1,
+      "h_bond_acceptors": 5,
+      "polar_surface_area": 110.93,
+      "rotatable_bonds": 5,
+      "side_effects": {
+        "Dry Cough": 0.24,
+        "Dizziness": 0.4,
+        "Headache": 0.37
+      }
+    },
+    "Enalapril": {
+      "category": "ACE Inhibitor",
+      "molecular_weight": 375.17,
+      "log_p": 0.82,
+      "h_bond_donors": 1,
+      "h_bond_acceptors": 2,
+      "polar_surface_area": 96.97,
+      "rotatable_bonds": 10,
+      "side_effects": {
+        "Dry Cough": 0.48,
+        "Dizziness": 0.37,
+        "Fatigue": 0.47,
+        "Headache": 0.31,
+        "Hyperkalemia": 0.48
+      }
+    },
+    "Ramipril": {
+      "category": "ACE Inhibitor",
+      "molecular_weight": 386.43,
+      "log_p": 1.09,
+      "h_bond_donors": 2,
+      "h_bond_acceptors": 2,
+      "polar_surface_area": 130.44,
+      "rotatable_bonds": 7,
+      "side_effects": {
+        "Headache": 0.3,
+        "Dry Cough": 0.33,
+        "Hyperkalemia": 0.31,
+        "Fatigue": 0.35
+      }
+    },
+    "Benazepril": {
+      "category": "ACE Inhibitor",
+      "molecular_weight": 365.83,
+      "log_p": 1.88,
+      "h_bond_donors": 4,
+      "h_bond_acceptors": 4,
+      "polar_surface_area": 61.9,
+      "rotatable_bonds": 3,
+      "side_effects": {
+        "Fatigue": 0.38,
+        "Dizziness": 0.48,
+        "Headache": 0.43,
+        "Dry Cough": 0.34,
+        "Hyperkalemia": 0.45
+      }
+    },
+    "Quinapril": {
+      "category": "ACE Inhibitor",
+      "molecular_weight": 474.61,
+      "log_p": -0.74,
+      "h_bond_donors": 2,
+      "h_bond_acceptors": 8,
+      "polar_surface_area": 53.59,
+      "rotatable_bonds": 4,
+      "side_effects": {
+        "Dizziness": 0.3,
+        "Fatigue": 0.35,
+        "Hyperkalemia": 0.3,
+        "Headache": 0.35
+      }
+    },
+    "Captopril": {
+      "category": "ACE Inhibitor",
+      "molecular_weight": 482.05,
+      "log_p": 1.1,
+      "h_bond_donors": 5,
+      "h_bond_acceptors": 5,
+      "polar_surface_area": 103.97,
+      "rotatable_bonds": 7,
+      "side_effects": {
+        "Headache": 0.23,
+        "Dry Cough": 0.42,
+        "Hyperkalemia": 0.35,
+        "Fatigue": 0.43
+      }
+    },
+    "Metoprolol": {
+      "category": "Beta Blocker",
+      "molecular_weight": 317.23,
+      "log_p": 1.54,
+      "h_bond_donors": 3,
+      "h_bond_acceptors": 7,
+      "polar_surface_area": 91.55,
+      "rotatable_bonds": 5,
+      "side_effects": {
+        "Cold Hands": 0.39,
+        "Dizziness": 0.47,
+        "Slow Heartbeat": 0.44,
+        "Fatigue": 0.46
+      }
+    },
+    "Atenolol": {
+      "category": "Beta Blocker",
+      "molecular_weight": 355.43,
+      "log_p": 2.18,
+      "h_bond_donors": 1,
+      "h_bond_acceptors": 3,
+      "polar_surface_area": 116.02,
+      "rotatable_bonds": 4,
+      "side_effects": {
+        "Cold Hands": 0.39,
+        "Fatigue": 0.52,
+        "Slow Heartbeat": 0.59,
+        "Dizziness": 0.51
+      }
+    },
+    "Propranolol": {
+      "category": "Beta Blocker",
+      "molecular_weight": 358.69,
+      "log_p": 3.94,
+      "h_bond_donors": 0,
+      "h_bond_acceptors": 6,
+      "polar_surface_area": 57.98,
+      "rotatable_bonds": 2,
+      "side_effects": {
+        "Weight Gain": 0.37,
+        "Slow Heartbeat": 0.35,
+        "Fatigue": 0.3,
+        "Dizziness": 0.46,
+        "Cold Hands": 0.38
+      }
+    },
+    "Carvedilol": {
+      "category": "Beta Blocker",
+      "molecular_weight": 345.68,
+      "log_p": 3.38,
+      "h_bond_donors": 2,
+      "h_bond_acceptors": 8,
+      "polar_surface_area": 82.1,
+      "rotatable_bonds": 1,
+      "side_effects": {
+        "Fatigue": 0.44,
+        "Slow Heartbeat": 0.4,
+        "Cold Hands": 0.59
+      }
+    },
+    "Bisoprolol": {
+      "category": "Beta Blocker",
+      "molecular_weight": 310.11,
+      "log_p": 1.69,
+      "h_bond_donors": 1,
+      "h_bond_acceptors": 8,
+      "polar_surface_area": 87.93,
+      "rotatable_bonds": 7,
+      "side_effects": {
+        "Fatigue": 0.6,
+        "Cold Hands": 0.34,
+        "Weight Gain": 0.53,
+        "Dizziness": 0.48,
+        "Slow Heartbeat": 0.54
+      }
+    },
+    "Labetalol": {
+      "category": "Beta Blocker",
+      "molecular_weight": 386.28,
+      "log_p": 2.24,
+      "h_bond_donors": 1,
+      "h_bond_acceptors": 6,
+      "polar_surface_area": 29.76,
+      "rotatable_bonds": 0,
+      "side_effects": {
+        "Dizziness": 0.58,
+        "Slow Heartbeat": 0.36,
+        "Weight Gain": 0.36,
+        "Fatigue": 0.5,
+        "Cold Hands": 0.35
+      }
+    },
+    "Sertraline": {
+      "category": "SSRI",
+      "molecular_weight": 290.85,
+      "log_p": 4.22,
+      "h_bond_donors": 2,
+      "h_bond_acceptors": 8,
+      "polar_surface_area": 122.86,
+      "rotatable_bonds": 9,
+      "side_effects": {
+        "Sexual Dysfunction": 0.51,
+        "Nausea": 0.51,
+        "Weight Gain": 0.44,
+        "Insomnia": 0.51
+      }
+    },
+    "Fluoxetine": {
+      "category": "SSRI",
+      "molecular_weight": 316.12,
+      "log_p": 4.83,
+      "h_bond_donors": 2,
+      "h_bond_acceptors": 6,
+      "polar_surface_area": 117.36,
+      "rotatable_bonds": 9,
+      "side_effects": {
+        "Nausea": 0.57,
+        "Insomnia": 0.55,
+        "Sexual Dysfunction": 0.32,
+        "Dry Mouth": 0.35
+      }
+    },
+    "Escitalopram": {
+      "category": "SSRI",
+      "molecular_weight": 342.12,
+      "log_p": 3.6,
+      "h_bond_donors": 4,
+      "h_bond_acceptors": 4,
+      "polar_surface_area": 23.36,
+      "rotatable_bonds": 3,
+      "side_effects": {
+        "Sexual Dysfunction": 0.43,
+        "Weight Gain": 0.48,
+        "Insomnia": 0.57,
+        "Dry Mouth": 0.52
+      }
+    },
+    "Citalopram": {
+      "category": "SSRI",
+      "molecular_weight": 346.19,
+      "log_p": 4.59,
+      "h_bond_donors": 4,
+      "h_bond_acceptors": 5,
+      "polar_surface_area": 102.52,
+      "rotatable_bonds": 7,
+      "side_effects": {
+        "Dry Mouth": 0.53,
+        "Nausea": 0.35,
+        "Sexual Dysfunction": 0.46,
+        "Insomnia": 0.43,
+        "Weight Gain": 0.38
+      }
+    },
+    "Paroxetine": {
+      "category": "SSRI",
+      "molecular_weight": 346.91,
+      "log_p": 3.68,
+      "h_bond_donors": 3,
+      "h_bond_acceptors": 8,
+      "polar_surface_area": 118.86,
+      "rotatable_bonds": 0,
+      "side_effects": {
+        "Sexual Dysfunction": 0.56,
+        "Dry Mouth": 0.4,
+        "Weight Gain": 0.51,
+        "Nausea": 0.39
+      }
+    },
+    "Fluvoxamine": {
+      "category": "SSRI",
+      "molecular_weight": 295.48,
+      "log_p": 3.29,
+      "h_bond_donors": 2,
+      "h_bond_acceptors": 6,
+      "polar_surface_area": 118.34,
+      "rotatable_bonds": 10,
+      "side_effects": {
+        "Nausea": 0.5,
+        "Weight Gain": 0.46,
+        "Sexual Dysfunction": 0.42,
+        "Dry Mouth": 0.36
+      }
+    },
+    "Alprazolam": {
+      "category": "Benzodiazepine",
+      "molecular_weight": 310.94,
+      "log_p": 2.1,
+      "h_bond_donors": 1,
+      "h_bond_acceptors": 7,
+      "polar_surface_area": 40.59,
+      "rotatable_bonds": 8,
+      "side_effects": {
+        "Memory Problems": 0.76,
+        "Confusion": 0.65,
+        "Dependence": 0.51,
+        "Dizziness": 0.69
+      }
+    },
+    "Lorazepam": {
+      "category": "Benzodiazepine",
+      "molecular_weight": 280.96,
+      "log_p": 2.82,
+      "h_bond_donors": 2,
+      "h_bond_acceptors": 6,
+      "polar_surface_area": 111.7,
+      "rotatable_bonds": 6,
+      "side_effects": {
+        "Drowsiness": 0.69,
+        "Dependence": 0.55,
+        "Memory Problems": 0.78
+      }
+    },
+    "Clonazepam": {
+      "category": "Benzodiazepine",
+      "molecular_weight": 338.43,
+      "log_p": 3.96,
+      "h_bond_donors": 1,
+      "h_bond_acceptors": 8,
+      "polar_surface_area": 29.08,
+      "rotatable_bonds": 6,
+      "side_effects": {
+        "Dependence": 0.56,
+        "Confusion": 0.68,
+        "Memory Problems": 0.72
+      }
+    },
+    "Diazepam": {
+      "category": "Benzodiazepine",
+      "molecular_weight": 303.79,
+      "log_p": 3.58,
+      "h_bond_donors": 3,
+      "h_bond_acceptors": 6,
+      "polar_surface_area": 82.96,
+      "rotatable_bonds": 5,
+      "side_effects": {
+        "Drowsiness": 0.75,
+        "Dizziness": 0.67,
+        "Dependence": 0.7,
+        "Confusion": 0.76
+      }
+    },
+    "Temazepam": {
+      "category": "Benzodiazepine",
+      "molecular_weight": 318.63,
+      "log_p": 3.09,
+      "h_bond_donors": 5,
+      "h_bond_acceptors": 5,
+      "polar_surface_area": 111.68,
+      "rotatable_bonds": 6,
+      "side_effects": {
+        "Dizziness": 0.67,
+        "Confusion": 0.57,
+        "Memory Problems": 0.73,
+        "Drowsiness": 0.51
+      }
+    },
+    "Metformin": {
+      "category": "Antidiabetic",
+      "molecular_weight": 382.53,
+      "log_p": 1.32,
+      "h_bond_donors": 5,
+      "h_bond_acceptors": 3,
+      "polar_surface_area": 73.3,
+      "rotatable_bonds": 10,
+      "side_effects": {
+        "Weight Gain": 0.66,
+        "Diarrhea": 0.66,
+        "Hypoglycemia": 0.53,
+        "Nausea": 0.56,
+        "Stomach Pain": 0.54
+      }
+    },
+    "Glipizide": {
+      "category": "Antidiabetic",
+      "molecular_weight": 779.57,
+      "log_p": -1.63,
+      "h_bond_donors": 2,
+      "h_bond_acceptors": 7,
+      "polar_surface_area": 113.43,
+      "rotatable_bonds": 7,
+      "side_effects": {
+        "Nausea": 0.66,
+        "Diarrhea": 0.66,
+        "Stomach Pain": 0.66,
+        "Hypoglycemia": 0.51
+      }
+    },
+    "Glyburide": {
+      "category": "Antidiabetic",
+      "molecular_weight": 713.22,
+      "log_p": -1.82,
+      "h_bond_donors": 5,
+      "h_bond_acceptors": 7,
+      "polar_surface_area": 133.44,
+      "rotatable_bonds": 7,
+      "side_effects": {
+        "Weight Gain": 0.62,
+        "Nausea": 0.53,
+        "Hypoglycemia": 0.43
+      }
+    },
+    "Insulin": {
+      "category": "Antidiabetic",
+      "molecular_weight": 233.13,
+      "log_p": -0.5,
+      "h_bond_donors": 4,
+      "h_bond_acceptors": 5,
+      "polar_surface_area": 93.57,
+      "rotatable_bonds": 2,
+      "side_effects": {
+        "Hypoglycemia": 0.49,
+        "Nausea": 0.51,
+        "Stomach Pain": 0.44
+      }
+    },
+    "Sitagliptin": {
+      "category": "Antidiabetic",
+      "molecular_weight": 235.59,
+      "log_p": -1.61,
+      "h_bond_donors": 3,
+      "h_bond_acceptors": 4,
+      "polar_surface_area": 108.09,
+      "rotatable_bonds": 2,
+      "side_effects": {
+        "Stomach Pain": 0.47,
+        "Weight Gain": 0.59,
+        "Diarrhea": 0.54,
+        "Hypoglycemia": 0.6
+      }
+    },
+    "Pioglitazone": {
+      "category": "Antidiabetic",
+      "molecular_weight": 170.23,
+      "log_p": 2.73,
+      "h_bond_donors": 4,
+      "h_bond_acceptors": 4,
+      "polar_surface_area": 94.73,
+      "rotatable_bonds": 4,
+      "side_effects": {
+        "Nausea": 0.65,
+        "Diarrhea": 0.46,
+        "Stomach Pain": 0.52,
+        "Weight Gain": 0.54,
+        "Hypoglycemia": 0.47
+      }
+    },
+    "Empagliflozin": {
+      "category": "Antidiabetic",
+      "molecular_weight": 134.92,
+      "log_p": 2.15,
+      "h_bond_donors": 1,
+      "h_bond_acceptors": 6,
+      "polar_surface_area": 124.25,
+      "rotatable_bonds": 3,
+      "side_effects": {
+        "Nausea": 0.67,
+        "Hypoglycemia": 0.62,
+        "Stomach Pain": 0.65,
+        "Diarrhea": 0.67
+      }
+    },
+    "Canagliflozin": {
+      "category": "Antidiabetic",
+      "molecular_weight": 552.9,
+      "log_p": 1.1,
+      "h_bond_donors": 2,
+      "h_bond_acceptors": 7,
+      "polar_surface_area": 74.02,
+      "rotatable_bonds": 3,
+      "side_effects": {
+        "Weight Gain": 0.64,
+        "Hypoglycemia": 0.41,
+        "Nausea": 0.51,
+        "Diarrhea": 0.44,
+        "Stomach Pain": 0.67
+      }
+    },
+    "Diphenhydramine": {
+      "category": "Antihistamine",
+      "molecular_weight": 276.43,
+      "log_p": 3.62,
+      "h_bond_donors": 2,
+      "h_bond_acceptors": 8,
+      "polar_surface_area": 34.97,
+      "rotatable_bonds": 1,
+      "side_effects": {
+        "Confusion": 0.37,
+        "Dizziness": 0.38,
+        "Drowsiness": 0.39,
+        "Dry Mouth": 0.19
+      }
+    },
+    "Loratadine": {
+      "category": "Antihistamine",
+      "molecular_weight": 278.15,
+      "log_p": 4.9,
+      "h_bond_donors": 3,
+      "h_bond_acceptors": 8,
+      "polar_surface_area": 103.01,
+      "rotatable_bonds": 5,
+      "side_effects": {
+        "Blurred Vision": 0.18,
+        "Dizziness": 0.14,
+        "Drowsiness": 0.21,
+        "Dry Mouth": 0.32,
+        "Confusion": 0.18
+      }
+    },
+    "Cetirizine": {
+      "category": "Antihistamine",
+      "molecular_weight": 271.67,
+      "log_p": 2.7,
+      "h_bond_donors": 5,
+      "h_bond_acceptors": 4,
+      "polar_surface_area": 104.4,
+      "rotatable_bonds": 1,
+      "side_effects": {
+        "Confusion": 0.17,
+        "Dizziness": 0.12,
+        "Blurred Vision": 0.35
+      }
+    },
+    "Fexofenadine": {
+      "category": "Antihistamine",
+      "molecular_weight": 277.96,
+      "log_p": 4.84,
+      "h_bond_donors": 5,
+      "h_bond_acceptors": 7,
+      "polar_surface_area": 142.98,
+      "rotatable_bonds": 6,
+      "side_effects": {
+        "Blurred Vision": 0.37,
+        "Drowsiness": 0.14,
+        "Confusion": 0.24,
+        "Dizziness": 0.3
+      }
+    },
+    "Levocetirizine": {
+      "category": "Antihistamine",
+      "molecular_weight": 367.47,
+      "log_p": 4.18,
+      "h_bond_donors": 3,
+      "h_bond_acceptors": 3,
+      "polar_surface_area": 131.21,
+      "rotatable_bonds": 1,
+      "side_effects": {
+        "Drowsiness": 0.38,
+        "Blurred Vision": 0.18,
+        "Dizziness": 0.31,
+        "Dry Mouth": 0.17
+      }
+    },
+    "Hydroxyzine": {
+      "category": "Antihistamine",
+      "molecular_weight": 446.19,
+      "log_p": 3.1,
+      "h_bond_donors": 5,
+      "h_bond_acceptors": 6,
+      "polar_surface_area": 146.24,
+      "rotatable_bonds": 0,
+      "side_effects": {
+        "Dizziness": 0.39,
+        "Drowsiness": 0.38,
+        "Dry Mouth": 0.35,
+        "Confusion": 0.13,
+        "Blurred Vision": 0.16
+      }
+    },
+    "Gabapentin": {
+      "category": "Antihistamine",
+      "molecular_weight": 407.36,
+      "log_p": 2.73,
+      "h_bond_donors": 1,
+      "h_bond_acceptors": 4,
+      "polar_surface_area": 120.67,
+      "rotatable_bonds": 9,
+      "side_effects": {
+        "Confusion": 0.35,
+        "Dry Mouth": 0.27,
+        "Drowsiness": 0.28
+      }
+    },
+    "Prednisone": {
+      "category": "NSAID",
+      "molecular_weight": 150.43,
+      "log_p": 4.15,
+      "h_bond_donors": 2,
+      "h_bond_acceptors": 8,
+      "polar_surface_area": 122.5,
+      "rotatable_bonds": 9,
+      "side_effects": {
+        "Heartburn": 0.23,
+        "Nausea": 0.46,
+        "Stomach Pain": 0.24
+      }
+    },
+    "Omeprazole": {
+      "category": "Antibiotic",
+      "molecular_weight": 364.75,
+      "log_p": 0.52,
+      "h_bond_donors": 2,
+      "h_bond_acceptors": 6,
+      "polar_surface_area": 97.18,
+      "rotatable_bonds": 7,
+      "side_effects": {
+        "Nausea": 0.33,
+        "Vomiting": 0.32,
+        "Rash": 0.43
+      }
+    },
+    "Pantoprazole": {
+      "category": "Antibiotic",
+      "molecular_weight": 400.77,
+      "log_p": 2.84,
+      "h_bond_donors": 3,
+      "h_bond_acceptors": 5,
+      "polar_surface_area": 109.19,
+      "rotatable_bonds": 7,
+      "side_effects": {
+        "Stomach Pain": 0.49,
+        "Rash": 0.31,
+        "Nausea": 0.6
+      }
+    },
+    "Levothyroxine": {
+      "category": "Beta Blocker",
+      "molecular_weight": 356.86,
+      "log_p": 2.61,
+      "h_bond_donors": 5,
+      "h_bond_acceptors": 4,
+      "polar_surface_area": 69.52,
+      "rotatable_bonds": 9,
+      "side_effects": {
+        "Slow Heartbeat": 0.34,
+        "Cold Hands": 0.49,
+        "Fatigue": 0.48
+      }
+    },
+    "Albuterol": {
+      "category": "Beta Blocker",
+      "molecular_weight": 329.58,
+      "log_p": 2.63,
+      "h_bond_donors": 5,
+      "h_bond_acceptors": 2,
+      "polar_surface_area": 60.63,
+      "rotatable_bonds": 5,
+      "side_effects": {
+        "Dizziness": 0.43,
+        "Fatigue": 0.57,
+        "Slow Heartbeat": 0.42,
+        "Weight Gain": 0.55,
+        "Cold Hands": 0.42
+      }
+    },
+    "Montelukast": {
+      "category": "Antihistamine",
+      "molecular_weight": 383.02,
+      "log_p": 3.12,
+      "h_bond_donors": 5,
+      "h_bond_acceptors": 4,
+      "polar_surface_area": 125.53,
+      "rotatable_bonds": 8,
+      "side_effects": {
+        "Blurred Vision": 0.35,
+        "Drowsiness": 0.13,
+        "Confusion": 0.13
+      }
+    },
+    "Warfarin": {
+      "category": "NSAID",
+      "molecular_weight": 159.0,
+      "log_p": 4.39,
+      "h_bond_donors": 4,
+      "h_bond_acceptors": 6,
+      "polar_surface_area": 47.66,
+      "rotatable_bonds": 10,
+      "side_effects": {
+        "Nausea": 0.46,
+        "Stomach Pain": 0.42,
+        "Heartburn": 0.49,
+        "Bleeding": 0.38,
+        "Dizziness": 0.31
+      }
+    },
+    "Clopidogrel": {
+      "category": "NSAID",
+      "molecular_weight": 222.33,
+      "log_p": 4.12,
+      "h_bond_donors": 4,
+      "h_bond_acceptors": 6,
+      "polar_surface_area": 107.75,
+      "rotatable_bonds": 8,
+      "side_effects": {
+        "Bleeding": 0.37,
+        "Nausea": 0.44,
+        "Stomach Pain": 0.45,
+        "Heartburn": 0.49
+      }
+    },
+    "Amlodipine": {
+      "category": "ACE Inhibitor",
+      "molecular_weight": 353.94,
+      "log_p": 1.79,
+      "h_bond_donors": 0,
+      "h_bond_acceptors": 3,
+      "polar_surface_area": 116.33,
+      "rotatable_bonds": 0,
+      "side_effects": {
+        "Hyperkalemia": 0.48,
+        "Dry Cough": 0.31,
+        "Fatigue": 0.25,
+        "Dizziness": 0.24,
+        "Headache": 0.4
+      }
+    },
+    "Losartan": {
+      "category": "ACE Inhibitor",
+      "molecular_weight": 363.76,
+      "log_p": 0.59,
+      "h_bond_donors": 0,
+      "h_bond_acceptors": 2,
+      "polar_surface_area": 40.23,
+      "rotatable_bonds": 9,
+      "side_effects": {
+        "Fatigue": 0.31,
+        "Headache": 0.42,
+        "Dizziness": 0.43,
+        "Dry Cough": 0.37
+      }
+    },
+    "Furosemide": {
+      "category": "ACE Inhibitor",
+      "molecular_weight": 357.46,
+      "log_p": -0.76,
+      "h_bond_donors": 0,
+      "h_bond_acceptors": 4,
+      "polar_surface_area": 108.17,
+      "rotatable_bonds": 9,
+      "side_effects": {
+        "Fatigue": 0.32,
+        "Headache": 0.26,
+        "Hyperkalemia": 0.35,
+        "Dizziness": 0.3
+      }
+    },
+    "Hydrochlorothiazide": {
+      "category": "ACE Inhibitor",
+      "molecular_weight": 422.99,
+      "log_p": 1.0,
+      "h_bond_donors": 1,
+      "h_bond_acceptors": 8,
+      "polar_surface_area": 53.22,
+      "rotatable_bonds": 5,
+      "side_effects": {
+        "Dizziness": 0.22,
+        "Fatigue": 0.26,
+        "Hyperkalemia": 0.48
+      }
+    },
+    "Spironolactone": {
+      "category": "ACE Inhibitor",
+      "molecular_weight": 368.0,
+      "log_p": 0.49,
+      "h_bond_donors": 5,
+      "h_bond_acceptors": 2,
+      "polar_surface_area": 76.71,
+      "rotatable_bonds": 7,
+      "side_effects": {
+        "Dizziness": 0.35,
+        "Headache": 0.45,
+        "Fatigue": 0.44,
+        "Dry Cough": 0.22
+      }
+    },
+    "Tamsulosin": {
+      "category": "Beta Blocker",
+      "molecular_weight": 388.17,
+      "log_p": 3.66,
+      "h_bond_donors": 5,
+      "h_bond_acceptors": 4,
+      "polar_surface_area": 31.46,
+      "rotatable_bonds": 1,
+      "side_effects": {
+        "Dizziness": 0.33,
+        "Weight Gain": 0.31,
+        "Slow Heartbeat": 0.4,
+        "Cold Hands": 0.54,
+        "Fatigue": 0.49
+      }
+    },
+    "Finasteride": {
+      "category": "Beta Blocker",
+      "molecular_weight": 286.5,
+      "log_p": 2.97,
+      "h_bond_donors": 2,
+      "h_bond_acceptors": 4,
+      "polar_surface_area": 114.56,
+      "rotatable_bonds": 10,
+      "side_effects": {
+        "Fatigue": 0.4,
+        "Dizziness": 0.35,
+        "Cold Hands": 0.45,
+        "Slow Heartbeat": 0.33,
+        "Weight Gain": 0.45
+      }
+    },
+    "Sildenafil": {
+      "category": "Beta Blocker",
+      "molecular_weight": 372.26,
+      "log_p": 2.09,
+      "h_bond_donors": 1,
+      "h_bond_acceptors": 8,
+      "polar_surface_area": 101.63,
+      "rotatable_bonds": 7,
+      "side_effects": {
+        "Slow Heartbeat": 0.48,
+        "Cold Hands": 0.53,
+        "Fatigue": 0.5
+      }
+    },
+    "Tadalafil": {
+      "category": "Beta Blocker",
+      "molecular_weight": 363.17,
+      "log_p": 3.4,
+      "h_bond_donors": 2,
+      "h_bond_acceptors": 6,
+      "polar_surface_area": 27.3,
+      "rotatable_bonds": 8,
+      "side_effects": {
+        "Weight Gain": 0.35,
+        "Slow Heartbeat": 0.32,
+        "Dizziness": 0.43,
+        "Cold Hands": 0.39
+      }
+    },
+    "Allopurinol": {
+      "category": "NSAID",
+      "molecular_weight": 161.13,
+      "log_p": 3.15,
+      "h_bond_donors": 4,
+      "h_bond_acceptors": 6,
+      "polar_surface_area": 85.92,
+      "rotatable_bonds": 7,
+      "side_effects": {
+        "Stomach Pain": 0.22,
+        "Nausea": 0.46,
+        "Heartburn": 0.46
+      }
+    },
+    "Zolpidem": {
+      "category": "Benzodiazepine",
+      "molecular_weight": 320.62,
+      "log_p": 3.91,
+      "h_bond_donors": 2,
+      "h_bond_acceptors": 7,
+      "polar_surface_area": 30.96,
+      "rotatable_bonds": 10,
+      "side_effects": {
+        "Drowsiness": 0.68,
+        "Dependence": 0.65,
+        "Dizziness": 0.79,
+        "Memory Problems": 0.64,
+        "Confusion": 0.74
+      }
+    },
+    "Topiramate": {
+      "category": "Benzodiazepine",
+      "molecular_weight": 292.08,
+      "log_p": 2.5,
+      "h_bond_donors": 0,
+      "h_bond_acceptors": 8,
+      "polar_surface_area": 102.02,
+      "rotatable_bonds": 5,
+      "side_effects": {
+        "Dependence": 0.78,
+        "Confusion": 0.62,
+        "Memory Problems": 0.73,
+        "Dizziness": 0.7
+      }
+    },
+    "Lamotrigine": {
+      "category": "Benzodiazepine",
+      "molecular_weight": 284.61,
+      "log_p": 2.19,
+      "h_bond_donors": 5,
+      "h_bond_acceptors": 5,
+      "polar_surface_area": 36.76,
+      "rotatable_bonds": 1,
+      "side_effects": {
+        "Dependence": 0.52,
+        "Dizziness": 0.7,
+        "Confusion": 0.78,
+        "Drowsiness": 0.59,
+        "Memory Problems": 0.7
+      }
+    },
+    "Quetiapine": {
+      "category": "Benzodiazepine",
+      "molecular_weight": 301.67,
+      "log_p": 2.75,
+      "h_bond_donors": 2,
+      "h_bond_acceptors": 8,
+      "polar_surface_area": 83.22,
+      "rotatable_bonds": 3,
+      "side_effects": {
+        "Confusion": 0.65,
+        "Drowsiness": 0.51,
+        "Dizziness": 0.59,
+        "Memory Problems": 0.79
+      }
+    },
+    "Olanzapine": {
+      "category": "Benzodiazepine",
+      "molecular_weight": 350.0,
+      "log_p": 2.31,
+      "h_bond_donors": 1,
+      "h_bond_acceptors": 8,
+      "polar_surface_area": 110.07,
+      "rotatable_bonds": 9,
+      "side_effects": {
+        "Drowsiness": 0.76,
+        "Memory Problems": 0.69,
+        "Dizziness": 0.68,
+        "Confusion": 0.55
+      }
+    },
+    "Risperidone": {
+      "category": "Benzodiazepine",
+      "molecular_weight": 336.63,
+      "log_p": 2.33,
+      "h_bond_donors": 1,
+      "h_bond_acceptors": 6,
+      "polar_surface_area": 51.09,
+      "rotatable_bonds": 7,
+      "side_effects": {
+        "Drowsiness": 0.79,
+        "Dependence": 0.68,
+        "Confusion": 0.73,
+        "Memory Problems": 0.74
+      }
+    },
+    "Aripiprazole": {
+      "category": "Benzodiazepine",
+      "molecular_weight": 343.28,
+      "log_p": 2.39,
+      "h_bond_donors": 2,
+      "h_bond_acceptors": 2,
+      "polar_surface_area": 103.35,
+      "rotatable_bonds": 5,
+      "side_effects": {
+        "Memory Problems": 0.65,
+        "Dependence": 0.63,
+        "Confusion": 0.55,
+        "Dizziness": 0.56,
+        "Drowsiness": 0.68
+      }
+    },
+    "Bupropion": {
+      "category": "SSRI",
+      "molecular_weight": 305.45,
+      "log_p": 2.76,
+      "h_bond_donors": 3,
+      "h_bond_acceptors": 4,
+      "polar_surface_area": 140.96,
+      "rotatable_bonds": 6,
+      "side_effects": {
+        "Nausea": 0.43,
+        "Sexual Dysfunction": 0.45,
+        "Dry Mouth": 0.55,
+        "Weight Gain": 0.33,
+        "Insomnia": 0.57
+      }
+    },
+    "Duloxetine": {
+      "category": "SSRI",
+      "molecular_weight": 255.33,
+      "log_p": 3.76,
+      "h_bond_donors": 5,
+      "h_bond_acceptors": 7,
+      "polar_surface_area": 63.59,
+      "rotatable_bonds": 2,
+      "side_effects": {
+        "Weight Gain": 0.37,
+        "Nausea": 0.4,
+        "Insomnia": 0.33
+      }
+    },
+    "Venlafaxine": {
+      "category": "SSRI",
+      "molecular_weight": 263.76,
+      "log_p": 3.22,
+      "h_bond_donors": 5,
+      "h_bond_acceptors": 6,
+      "polar_surface_area": 88.61,
+      "rotatable_bonds": 1,
+      "side_effects": {
+        "Insomnia": 0.57,
+        "Weight Gain": 0.31,
+        "Dry Mouth": 0.36,
+        "Nausea": 0.34
+      }
+    },
+    "Amitriptyline": {
+      "category": "SSRI",
+      "molecular_weight": 327.62,
+      "log_p": 3.09,
+      "h_bond_donors": 3,
+      "h_bond_acceptors": 6,
+      "polar_surface_area": 89.69,
+      "rotatable_bonds": 10,
+      "side_effects": {
+        "Nausea": 0.49,
+        "Insomnia": 0.49,
+        "Weight Gain": 0.32
+      }
+    },
+    "Nortriptyline": {
+      "category": "SSRI",
+      "molecular_weight": 301.54,
+      "log_p": 3.1,
+      "h_bond_donors": 5,
+      "h_bond_acceptors": 7,
+      "polar_surface_area": 31.13,
+      "rotatable_bonds": 5,
+      "side_effects": {
+        "Sexual Dysfunction": 0.48,
+        "Weight Gain": 0.37,
+        "Nausea": 0.42
+      }
+    },
+    "Mirtazapine": {
+      "category": "SSRI",
+      "molecular_weight": 256.77,
+      "log_p": 3.82,
+      "h_bond_donors": 2,
+      "h_bond_acceptors": 3,
+      "polar_surface_area": 115.28,
+      "rotatable_bonds": 10,
+      "side_effects": {
+        "Dry Mouth": 0.49,
+        "Nausea": 0.59,
+        "Insomnia": 0.38,
+        "Sexual Dysfunction": 0.3,
+        "Weight Gain": 0.54
+      }
+    },
+    "Trazodone": {
+      "category": "SSRI",
+      "molecular_weight": 260.37,
+      "log_p": 3.95,
+      "h_bond_donors": 5,
+      "h_bond_acceptors": 5,
+      "polar_surface_area": 102.13,
+      "rotatable_bonds": 2,
+      "side_effects": {
+        "Insomnia": 0.54,
+        "Nausea": 0.35,
+        "Dry Mouth": 0.53,
+        "Sexual Dysfunction": 0.44
+      }
+    },
+    "Buspirone": {
+      "category": "SSRI",
+      "molecular_weight": 256.31,
+      "log_p": 4.44,
+      "h_bond_donors": 3,
+      "h_bond_acceptors": 8,
+      "polar_surface_area": 90.59,
+      "rotatable_bonds": 4,
+      "side_effects": {
+        "Nausea": 0.54,
+        "Sexual Dysfunction": 0.57,
+        "Dry Mouth": 0.39,
+        "Weight Gain": 0.39
+      }
+    },
+    "Cyclobenzaprine": {
+      "category": "Benzodiazepine",
+      "molecular_weight": 282.56,
+      "log_p": 3.29,
+      "h_bond_donors": 3,
+      "h_bond_acceptors": 5,
+      "polar_surface_area": 64.07,
+      "rotatable_bonds": 2,
+      "side_effects": {
+        "Dizziness": 0.58,
+        "Drowsiness": 0.74,
+        "Memory Problems": 0.63,
+        "Confusion": 0.62
+      }
+    },
+    "Baclofen": {
+      "category": "Benzodiazepine",
+      "molecular_weight": 314.73,
+      "log_p": 3.0,
+      "h_bond_donors": 2,
+      "h_bond_acceptors": 7,
+      "polar_surface_area": 58.43,
+      "rotatable_bonds": 7,
+      "side_effects": {
+        "Dizziness": 0.63,
+        "Drowsiness": 0.8,
+        "Memory Problems": 0.55,
+        "Confusion": 0.59,
+        "Dependence": 0.53
+      }
+    },
+    "Tizanidine": {
+      "category": "Benzodiazepine",
+      "molecular_weight": 322.18,
+      "log_p": 2.85,
+      "h_bond_donors": 5,
+      "h_bond_acceptors": 7,
+      "polar_surface_area": 72.81,
+      "rotatable_bonds": 8,
+      "side_effects": {
+        "Dependence": 0.68,
+        "Dizziness": 0.63,
+        "Confusion": 0.69,
+        "Drowsiness": 0.74,
+        "Memory Problems": 0.52
+      }
+    },
+    "Ozempic": {
+      "category": "GLP-1 Agonist",
+      "molecular_weight": 349.46,
+      "log_p": 0.72,
+      "h_bond_donors": 6,
+      "h_bond_acceptors": 10,
+      "polar_surface_area": 166.4,
+      "rotatable_bonds": 8,
+      "side_effects": {
+        "Nausea": 0.6,
+        "Diarrhea": 0.7,
+        "Hypoglycemia": 0.8,
+        "Headache": 0.5,
+        "Injection site reactions": 0.6
+      }
+    },
+    "Nucoxia Mr": {
+      "category": "NSAID + Muscle Relaxant",
+      "molecular_weight": 358.37,
+      "log_p": 4.2,
+      "h_bond_donors": 2,
+      "h_bond_acceptors": 5,
+      "polar_surface_area": 97.6,
+      "rotatable_bonds": 7,
+      "side_effects": {
+        "Nausea": 0.8,
+        "Dizziness": 0.7,
+        "Headache": 0.6,
+        "Drowsiness": 0.7,
+        "Stomach upset": 0.8
+      }
+    },
+    "Dolo 650": {
+      "category": "Analgesic",
+      "molecular_weight": 151.16,
+      "log_p": 0.45,
+      "h_bond_donors": 2,
+      "h_bond_acceptors": 2,
+      "polar_surface_area": 46.25,
+      "rotatable_bonds": 1,
+      "side_effects": {
+        "Nausea": 0.6,
+        "Vomiting": 0.5,
+        "Liver toxicity": 0.8,
+        "Allergic reactions": 0.7,
+        "Dizziness": 0.4
+      }
+    },
+    "ultracet": {
+      "category": "Analgesic",
+      "molecular_weight": 325.41,
+      "log_p": 1.76,
+      "h_bond_donors": 2,
+      "h_bond_acceptors": 5,
+      "polar_surface_area": 75.99,
+      "rotatable_bonds": 4,
+      "side_effects": {
+        "Nausea": 0.7,
+        "Dizziness": 0.8,
+        "Constipation": 0.6,
+        "Headache": 0.5,
+        "Sweating": 0.4
+      }
+    },
+    "Asprin": {
+      "category": "NSAID",
+      "molecular_weight": 180.16,
+      "log_p": 1.35,
+      "h_bond_donors": 1,
+      "h_bond_acceptors": 3,
+      "polar_surface_area": 63.6,
+      "rotatable_bonds": 1,
+      "side_effects": {
+        "Gastric Ulceration": 0.8,
+        "Bleeding": 0.7,
+        "Allergic Reactions": 0.6,
+        "Nausea": 0.5,
+        "Ringing in Ears": 0.4
+      }
+    },
+    "Psilocybin": {
+      "category": "Psychedelic",
+      "molecular_weight": 284.3,
+      "log_p": 1.5,
+      "h_bond_donors": 1,
+      "h_bond_acceptors": 2,
+      "polar_surface_area": 37.3,
+      "rotatable_bonds": 2,
+      "side_effects": {
+        "Hallucinations": 0.8,
+        "Increased heart rate": 0.6,
+        "Nausea": 0.4,
+        "Dilated pupils": 0.5,
+        "Heightened sensory experiences": 0.7
+      }
+    }
+  },
+  "categories": [
+    "NSAID",
+    "Antidiabetic",
+    "ACE Inhibitor",
+    "Statin",
+    "Antibiotic",
+    "Proton Pump Inhibitor",
+    "SSRI Antidepressant",
+    "Calcium Channel Blocker",
+    "Beta Blocker",
+    "Thyroid Hormone",
+    "ARB",
+    "Anticonvulsant",
+    "Corticosteroid",
+    "Anticoagulant",
+    "Fluoroquinolone Antibiotic",
+    "Thiazide Diuretic",
+    "Opioid Analgesic",
+    "Antiplatelet",
+    "Bronchodilator",
+    "Benzodiazepine",
+    "Leukotriene Inhibitor",
+    "SNRI Antidepressant",
+    "Sedative-Hypnotic"
+  ]
+}
