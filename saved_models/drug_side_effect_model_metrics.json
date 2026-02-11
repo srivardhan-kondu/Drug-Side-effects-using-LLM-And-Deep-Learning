@@ -1,0 +1,12 @@
+{
+  "best_epoch": 139,
+  "best_val_f1": 0.6045993031358885,
+  "final_precision": 0.6836012861736335,
+  "final_recall": 0.5328320802005012,
+  "final_auc": 0.8944717966050775,
+  "total_params": 4583604,
+  "training_samples": 2344,
+  "validation_samples": 587,
+  "num_side_effects": 50,
+  "input_dim": 2000
+}
