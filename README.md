@@ -742,10 +742,10 @@ We welcome contributions in the following areas:
 
 For questions, issues, or collaboration:
 
-- **Email**: your.email@example.com
-- **GitHub Issues**: [Report a bug](https://github.com/yourusername/pharmaai/issues)
-- **LinkedIn**: [Your Profile](https://linkedin.com/in/yourprofile)
-- **Twitter**: [@yourhandle](https://twitter.com/yourhandle)
+- **Email**: Srivardhan.kondu@gmail.com
+- **GitHub Issues**: [Report a bug](https://github.com/srivardhan-kondu/Drug-Detection/issues)
+- **LinkedIn**: [Your Profile](https://www.linkedin.com/in/srivardhan-kondu-7001a1252/)
+
 
 ---
 
