@@ -12,7 +12,7 @@ from data.drug_database_manager import db
 
 # Configuration
 st.set_page_config(
-    page_title="PharmaAI - Drug Safety Analysis",
+    page_title="DeepSide: A Deep Learning Framework for Drug Side Effect Prediction - Drug Safety Analysis",
     page_icon="💊",
     layout="wide",
     initial_sidebar_state="expanded"
@@ -71,7 +71,7 @@ def load_db():
 
 # Sidebar
 with st.sidebar:
-    st.title("💊 PharmaAI")
+    st.title("💊 DeepSide: A Deep Learning Framework for Drug Side Effect Prediction")
     st.write("Drug Side Effect Prediction System")
     
     menu = st.radio("Navigation", ["🔍 Analyze Drug", "📚 Drug Database", "ℹ️ About"])
@@ -278,9 +278,9 @@ elif menu == "📚 Drug Database":
         st.info("No drugs match your search.")
 
 elif menu == "ℹ️ About":
-    st.title("About PharmaAI")
+    st.title("About DeepSide: A Deep Learning Framework for Drug Side Effect Prediction")
     st.markdown("""
-    **PharmaAI** is an advanced drug safety analysis tool powered by Deep Learning and Large Language Models.
+    **DeepSide: A Deep Learning Framework for Drug Side Effect Prediction** is an advanced drug safety analysis tool powered by Deep Learning and Large Language Models.
     
     ### Features
     - **Deep Learning Model**: PyTorch neural network with attention mechanism for side effect prediction.

@@ -1,4 +1,4 @@
-# 💊 PharmaAI - Drug Side Effect Prediction System
+# 💊 DeepSide: A Deep Learning Framework for Drug Side Effect Prediction - Drug Side Effect Prediction System
 
 [![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/downloads/)
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.1.0-red.svg)](https://pytorch.org/)
@@ -31,7 +31,7 @@
 Patients and healthcare providers need quick, reliable access to drug safety information, including potential side effects and their severity. Traditional drug databases are static and don't provide personalized explanations for why specific side effects occur.
 
 ### Solution
-**PharmaAI** is a hybrid AI system that:
+**DeepSide: A Deep Learning Framework for Drug Side Effect Prediction** is a hybrid AI system that:
 1. **Predicts** drug side effects using a custom PyTorch neural network with attention mechanisms
 2. **Explains** the pharmacological mechanisms behind side effects using GPT-4
 3. **Dynamically expands** its knowledge base by automatically discovering new drugs via LLM when not found in the local database
@@ -176,7 +176,7 @@ This project does not rely on simple regression or basic ML. It uses a **custom 
 
 The following diagram illustrates how the `DrugSideEffectModel` processes a drug's molecular profile to predict side effects.
 
-![PharmaAI Deep Learning Architecture](docs/pharmaai_deep_learning_architecture.png)
+![DeepSide: A Deep Learning Framework for Drug Side Effect Prediction Deep Learning Architecture](docs/DeepSide: A Deep Learning Framework for Drug Side Effect Prediction_deep_learning_architecture.png)
 
 ---
 
@@ -251,8 +251,8 @@ for _ in range(50):
 ### Step 1: Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/pharmaai-drug-detection.git
-cd pharmaai-drug-detection
+git clone https://github.com/yourusername/DeepSide: A Deep Learning Framework for Drug Side Effect Prediction-drug-detection.git
+cd DeepSide: A Deep Learning Framework for Drug Side Effect Prediction-drug-detection
 ```
 
 ### Step 2: Create Virtual Environment
