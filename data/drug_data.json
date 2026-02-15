@@ -1807,6 +1807,22 @@
         "Dilated pupils": 0.5,
         "Heightened sensory experiences": 0.7
       }
+    },
+    "Benzodiazepines": {
+      "category": "Benzodiazepine",
+      "molecular_weight": 308.76,
+      "log_p": 3.0,
+      "h_bond_donors": 0,
+      "h_bond_acceptors": 2,
+      "polar_surface_area": 20.2,
+      "rotatable_bonds": 0,
+      "side_effects": {
+        "Drowsiness": 0.8,
+        "Confusion": 0.7,
+        "Dizziness": 0.6,
+        "Memory problems": 0.7,
+        "Dependency": 0.9
+      }
     }
   },
   "categories": [
